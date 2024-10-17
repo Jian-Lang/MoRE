@@ -20,7 +20,6 @@ src         # code of MoRE
 - model     # model implementation
 - utils     # training utils
 - data      # dataloader of MoRE
-
 ```
 
 ## Dataset
