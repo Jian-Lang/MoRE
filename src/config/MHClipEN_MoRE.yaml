@@ -1,0 +1,32 @@
+hydra:
+  output_subdir: null
+  run:  
+    dir: /tmp
+train:
+data:
+  text_encoder: google-bert/bert-base-uncased
+  task: binary
+  num_pos: 10
+  num_neg: 30
+para:
+  text_encoder: google-bert/bert-base-uncased
+  fea_dim: 128
+  num_epoch: 50
+  delta: 0.25
+  alpha: 0.7
+  num_pos: 10
+  num_neg: 30
+opt:
+  name: AdamW
+  lr: 5e-4
+  weight_decay: 5e-5
+sche:
+  name: DummyLR
+
+num_epoch: 50
+batch_size: 128
+seed: 2024
+model: MoRE
+dataset: MHClipEN
+type: default
+patience: 5
