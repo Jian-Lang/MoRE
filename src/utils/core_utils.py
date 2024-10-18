@@ -80,7 +80,7 @@ def load_model(model_name: str, **kargs):
 def get_dataset(model_name: str, dataset_name: str, **kargs):
     try:
         # Attempt to import the module
-        if model_name == 'HVD':
+        if model_name == 'MoRE':
             module = importlib.import_module(f"model.{model_name}.data.{dataset_name}_{model_name}")
         else:
             module = importlib.import_module(f"model.{model_name}.data.{dataset_name}_{model_name}")
@@ -107,7 +107,7 @@ def get_dataset(model_name: str, dataset_name: str, **kargs):
 def get_collator(model_name: str, dataset_name: str, **kargs):
     try:
         # Attempt to import the module
-        if model_name == 'HVD':
+        if model_name == 'MoRE':
             module = importlib.import_module(f"model.{model_name}.data.{dataset_name}_{model_name}")
         else:
             module = importlib.import_module(f"model.{model_name}.data.{dataset_name}_{model_name}")
