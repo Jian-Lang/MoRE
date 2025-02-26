@@ -32,9 +32,9 @@ Access the full dataset from [hate-alert/HateMM](https://github.com/hate-alert/H
 
 Access the full dataset from [Social-AI-Studio/MultiHateClip: Official repository for ACM Multimedia'24 paper "MultiHateClip: A Multilingual Benchmark Dataset for Hateful Video Detection on YouTube and Bilibili"](https://github.com/social-ai-studio/multihateclip).
 
-# Usage
+## Usage
 
-## Requirements
+### Requirements
 
 To set up the environment, run the following commands:
 
@@ -43,7 +43,7 @@ conda create --name py312 python=3.12
 pip install torch transformers tqdm loguru pandas torchmetrics scikit-learn colorama wandb hydra-core
 ```
 
-## Data Preprocess
+### Data Preprocess
 
 1. Sample 16 frames from each video in the dataset.
 
@@ -58,7 +58,7 @@ pip install torch transformers tqdm loguru pandas torchmetrics scikit-learn colo
 6. Encode textual feature using a pre-trained BERT model.
 
 
-## Retrieval
+### Retrieval
 
 1. Encode audio transcirpt using BERT to make audio memory bank.
 
@@ -71,7 +71,7 @@ pip install torch transformers tqdm loguru pandas torchmetrics scikit-learn colo
 python retrieve/make_retrieval_result.py
 ```
 
-## Run
+### Run
 
 ```bash
 # Run ExMRD for the HateMM dataset
@@ -84,7 +84,7 @@ python src/main.py --config-name MHClipEN_MoRE
 python src/main.py --config-name MHClipZH_MoRE
 ```
 
-# Citation
+## Citation
 If you find our research useful, please cite this paper:
 ```bib
 @inproceedings{lang2025biting,
