@@ -95,4 +95,4 @@ If you find our research useful, please cite this paper:
 	title = {Biting Off More Than You Can Detect: Retrieval-Augmented Multimodal Experts for Short Video Hate Detection},
 }
 
-``
+```
