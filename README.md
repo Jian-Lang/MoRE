@@ -83,3 +83,16 @@ python src/main.py --config-name MHClipEN_MoRE
 # Run ExMRD for the MHClip-B dataset
 python src/main.py --config-name MHClipZH_MoRE
 ```
+
+# Citation
+If you find our research useful, please cite this paper:
+```bib
+@inproceedings{lang2025biting,
+	author = {Lang, Jian and Hong, Rongpei and Xu, Jin and Li, Yili and Xu, Xovee and Zhou, Fan},
+	booktitle = {The {Web} {Conference} ({WWW})},
+	year = {2025},
+	organization = {ACM},
+	title = {Biting Off More Than You Can Detect: Retrieval-Augmented Multimodal Experts for Short Video Hate Detection},
+}
+
+``
