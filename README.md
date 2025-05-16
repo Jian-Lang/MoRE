@@ -66,6 +66,11 @@ pip install torch transformers tqdm loguru pandas torchmetrics scikit-learn colo
 
 6. Encode textual feature using a pre-trained BERT model.
 
+```bash
+# refer the preprossing pipeline and make sure correct configuration of the paths of source data files
+cd preprocess
+```
+
 
 ### Retrieval
 
