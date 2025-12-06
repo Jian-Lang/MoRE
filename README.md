@@ -1,4 +1,4 @@
-# MoRE: Mixture of Retrieval-Augmented Multimodal Experts
+# MoRE: Mixture of Retrieval-augmented multimodal Experts framework
 
 This repo is the official implementation of *Biting Off More Than You Can Detect: Retrieval-Augmented Multimodal Experts for Short Video Hate Detection* accepted by WWW 2025. The paper can be accessed via Openreview.
 
